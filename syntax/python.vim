@@ -162,9 +162,9 @@ syn keyword pythonConditional   if elif else
 " The standard pyrex.vim unconditionally removes the pythonInclude group, so
 " we provide a dummy group here to avoid crashing pyrex.vim.
 syn keyword pythonInclude       import
-syn keyword pythonImport        import
+syn keyword pythonImport        import self
 syn keyword pythonException     try except finally
-syn keyword pythonOperator      and in is not or
+syn keyword pythonOperator      and in is not or log
 
 syn match pythonStatement   "\<yield\>" display
 syn match pythonImport      "\<from\>" display
